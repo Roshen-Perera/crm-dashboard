@@ -29,7 +29,7 @@ const items = [
     icon: Calendar,
   },
   {
-    title: "Search",
+    title: "Income",
     url: "#",
     icon: Search,
   },
