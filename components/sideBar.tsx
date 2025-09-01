@@ -40,7 +40,7 @@ const items = [
   },
 ];
 
-export function AppSidebar() {
+export function sideBar() {
   return (
     <Sidebar>
       <SidebarContent>
