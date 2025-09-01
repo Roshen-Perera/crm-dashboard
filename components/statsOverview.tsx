@@ -6,10 +6,10 @@ const statsOverview = () => {
     <div className="grid grid-cols-3">
       <div className="flex">
         <div className="bg-[#D3FFE7] rounded-full w-12 h-12"></div>
-        <div className='flex flex-row'>
+        <div className='flex flex-col'>
             <p className='text-xs text-gray-400'>Earning</p>
             <p className='text-3xl font-semibold'>$198k</p>
-            <div>
+            <div className='flex flex-row'>
                 <ArrowUpNarrowWide/>
                 <p className='text-xs'>37.8%</p>
                 <p className='text-xs'>Since last month</p>
