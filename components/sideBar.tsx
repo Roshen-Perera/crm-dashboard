@@ -1,4 +1,4 @@
-import { Calendar, Inbox, LayoutDashboard, Search, Settings } from "lucide-react";
+import { Calendar, ChevronRight, Inbox, LayoutDashboard, Search, Settings } from "lucide-react";
 
 import {
   Sidebar,
@@ -17,7 +17,7 @@ import Image from "next/image";
 const items = [
   {
     title: "Dashboard",
-    url: "#",
+    url: "/",
     icon: LayoutDashboard,
   },
   {
@@ -67,16 +67,24 @@ export function AppSidebar() {
             </div>
           </SidebarGroupLabel>
           <SidebarGroupContent>
-            <SidebarMenu className="mt-10 gap-5">
+            <SidebarMenu className="mt-10">
               {items.map((item) => (
                 <SidebarMenuItem className="text-[#9197B3]" key={item.title}>
                   <SidebarMenuButton
-                    className="text-base hover:bg-[#5932EA] hover:text-[#ECEAFF] p-5 rounded-md cursor-pointer transition-colors duration-200"
+                    className="text-base hover:bg-[#5932EA] hover:text-[#ECEAFF] p-6 rounded-md cursor-pointer transition-colors duration-200"
                     asChild
                   >
-                    <a href={item.url}>
-                      <item.icon />
-                      <span>{item.title}</span>
+                    <a
+                      href={item.url}
+                      className="flex items-center justify-between w-full rounded-md hover:bg-[#5932EA] hover:text-[#ECEAFF] transition-colors duration-200 text-[#9197B3]"
+                    >
+                      <div className="flex items-center gap-2">
+                        <item.icon className="w-5 h-5" />
+                        <span>{item.title}</span>
+                      </div>
+                      <div>
+                        <ChevronRight size={16} />
+                      </div>
                     </a>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
