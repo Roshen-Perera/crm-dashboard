@@ -19,7 +19,7 @@ const items = [
     icon: Home,
   },
   {
-    title: "Inbox",
+    title: "Product",
     url: "#",
     icon: Inbox,
   },
