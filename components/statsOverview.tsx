@@ -7,7 +7,7 @@ const statsOverview = () => {
       <div className="grid grid-cols-3 border-1 p-8 rounded-3xl gap-30">
         <div className="flex items-center gap-4">
           <div className="bg-[#D3FFE7] rounded-full w-18 h-18"></div>
-          <div className="flex flex-col">
+          <div className="flex flex-col gap-1">
             <p className="text-xs text-gray-400">Earning</p>
             <p className="text-3xl font-semibold">$198k</p>
             <div className="flex flex-row items-center gap-1">
@@ -19,7 +19,7 @@ const statsOverview = () => {
         </div>
         <div className="flex items-center gap-4">
           <div className="bg-[#CAF1FF] rounded-full w-18 h-18"></div>
-          <div className="flex flex-col">
+          <div className="flex flex-col gap-1">
             <p className="text-xs text-gray-400">Balance</p>
             <p className="text-3xl font-semibold">$2.4k</p>
             <div className="flex flex-row items-center gap-1">
@@ -31,7 +31,7 @@ const statsOverview = () => {
         </div>
         <div className="flex items-center gap-4">
           <div className="bg-[#FFA3CF] rounded-full w-18 h-18"></div>
-          <div className="flex flex-col">
+          <div className="flex flex-col gap-1">
             <p className="text-xs text-gray-400">Total Sales</p>
             <p className="text-3xl font-semibold">$89k</p>
             <div className="flex flex-row items-center gap-1">
