@@ -1,4 +1,5 @@
 import { AppSidebar } from "@/components/sideBar";
+import StatsOverview from "@/components/statsOverview";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { Search } from "lucide-react";
 
@@ -22,6 +23,7 @@ export default function Home() {
               />
             </div>
           </div>
+          <StatsOverview />
         </main>
       </SidebarProvider>
     </>
