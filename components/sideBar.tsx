@@ -50,7 +50,7 @@ const items = [
 export function AppSidebar() {
   return (
     <Sidebar>
-      <SidebarContent className="bg-white border-none">
+      <SidebarContent className="bg-white no-sidebar-border">
         <SidebarGroup>
           <SidebarGroupLabel>
             <div className="flex flex-row mt-5 items-center gap-2 text-black">
