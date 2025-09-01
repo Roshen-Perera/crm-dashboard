@@ -4,7 +4,7 @@ import React from 'react'
 const statsOverview = () => {
   return (
     <>
-      <div className="grid grid-cols-3 bg-white p-8 rounded-3xl">
+      <div className="grid grid-cols-3 bg-white p-8 rounded-3xl items-center">
         <div className="flex items-center gap-4">
           <div className="bg-[#D3FFE7] rounded-full w-18 h-18"></div>
           <div className="flex flex-col">
