@@ -23,7 +23,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="p-12">
+          <div className="p-8 ml-8">
             <StatsOverview />
           </div>
         </main>
