@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <SidebarProvider>
         <AppSidebar />
-        <main className="w-full bg-[#f4f7fd]">
+        <main className="w-full bg-[#f4f7fd] items-center">
           <div className="flex items-center justify-between px-12 py-4">
             <h1 className="text-xl font-semibold text-gray-800">
               Hello Evano <span className="inline-block">👋</span>,
