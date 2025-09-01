@@ -18,7 +18,7 @@ const statsOverview = () => {
           </div>
         </div>
         <div className="flex items-center gap-4">
-          <div className="bg-[#D3FFE7] rounded-full w-18 h-18"></div>
+          <div className="bg-[#CAF1FF] rounded-full w-18 h-18"></div>
           <div className="flex flex-col">
             <p className="text-xs text-gray-400">Earning</p>
             <p className="text-3xl font-semibold">$198k</p>
