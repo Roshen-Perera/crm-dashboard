@@ -38,6 +38,11 @@ const items = [
     url: "#",
     icon: Settings,
   },
+  {
+    title: "Help",
+    url: "#",
+    icon: Settings,
+  },
 ];
 
 export function AppSidebar() {
