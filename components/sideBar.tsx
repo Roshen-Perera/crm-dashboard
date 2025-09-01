@@ -1,4 +1,4 @@
-import { Calendar, Home, Inbox, Search, Settings } from "lucide-react";
+import { Calendar, Home, Inbox, LayoutDashboard, Search, Settings } from "lucide-react";
 
 import {
   Sidebar,
@@ -16,7 +16,7 @@ const items = [
   {
     title: "Dashboard",
     url: "#",
-    icon: Home,
+    icon: LayoutDashboard,
   },
   {
     title: "Product",
@@ -51,7 +51,7 @@ export function AppSidebar() {
       <SidebarContent className="bg-white">
         <SidebarGroup>
           <SidebarGroupLabel>
-            
+
           </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
