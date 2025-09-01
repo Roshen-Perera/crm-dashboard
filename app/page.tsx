@@ -23,7 +23,9 @@ export default function Home() {
               />
             </div>
           </div>
-          <StatsOverview />
+          <div className="p-12">
+            <StatsOverview />
+          </div>
         </main>
       </SidebarProvider>
     </>
