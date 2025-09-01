@@ -1,3 +1,4 @@
+import { AppSidebar } from "@/components/sidebar";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 
 
@@ -7,7 +8,6 @@ export default function Home() {
       <SidebarProvider>
         <AppSidebar />
         <main>
-          <SidebarTrigger />
         </main>
       </SidebarProvider>
     </>
