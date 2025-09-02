@@ -27,7 +27,14 @@ const statsOverview = () => {
         </div>
 
         <div className="flex items-center gap-4">
-          <div className="bg-[#CAF1FF] rounded-full w-20 h-20"></div>
+          <div className="bg-[#D3FFE7] rounded-full w-20 h-20 flex items-center justify-center">
+            <Image
+              src="/assets/icons/money-recive 1.png"
+              width={40}
+              height={40}
+              alt="Earning"
+            />
+          </div>
           <div className="flex flex-col gap-1">
             <p className="text-xs text-gray-400">Balance</p>
             <p className="text-3xl font-semibold">$2.4k</p>
