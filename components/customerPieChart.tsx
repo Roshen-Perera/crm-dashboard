@@ -61,8 +61,8 @@ export function CustomerPieChart() {
   return (
     <Card className="flex flex-col border-none shadow-none">
       <CardHeader className="items-center pb-0">
-        <CardTitle>Pie Chart - Donut with Text</CardTitle>
-        <CardDescription>January - June 2024</CardDescription>
+        <CardTitle>Customers</CardTitle>
+        <CardDescription>Customers that buy products</CardDescription>
       </CardHeader>
       <CardContent className="flex-1 pb-0">
         <ChartContainer
