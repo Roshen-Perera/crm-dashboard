@@ -1,11 +1,11 @@
-import React from 'react'
-import { Card, CardHeader, CardTitle } from './ui/card'
-import { Search } from 'lucide-react';
+import React from "react";
+import { Card, CardHeader, CardTitle } from "./ui/card";
+import { Search } from "lucide-react";
 
 const productTable = () => {
   return (
     <div>
-      <Card className="border-none shadow-none">
+      <Card className="flex flex-col border-none shadow-none">
         <CardHeader className="flex flex-row justify-between items-center">
           <div>
             <CardTitle>Product Sell</CardTitle>
@@ -22,19 +22,60 @@ const productTable = () => {
               />
             </div>
             <div className="relative w-48 md:w-40">
-                <select className="w-full rounded-lg border-none bg-gray-100 pl-4 pr-4 py-2.5 text-sm
+              <select
+                className="w-full rounded-lg border-none bg-gray-100 pl-4 pr-4 py-2.5 text-sm
                      focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:bg-white
-                     placeholder:text-gray-400 transition-all duration-200">
-                  <option value="">Last 30 Days</option>
-                  <option value="product1">Product 1</option>
-                  <option value="product2">Product 2</option>
-                </select>
+                     placeholder:text-gray-400 transition-all duration-200"
+              >
+                <option value="">Last 30 Days</option>
+                <option value="product1">Product 1</option>
+                <option value="product2">Product 2</option>
+              </select>
             </div>
           </div>
         </CardHeader>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1fr] gap-4 px-6 py-4 border-b border-gray-200">
+          <div className="text-sm font-medium text-gray-600">Product Name</div>
+          <div className="text-sm font-medium text-gray-600 text-center">
+            Stock
+          </div>
+          <div className="text-sm font-medium text-gray-600 text-center">
+            Price
+          </div>
+          <div className="text-sm font-medium text-gray-600 text-center">
+            Total Sales
+          </div>
+        </div>
+
+        <div className="grid grid-cols-[2fr_1fr_1fr_1fr] gap-4 items-center px-6">
+          <div className="flex items-center space-x-3">
+            {/* <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-700 rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-blue-300 rounded opacity-60"></div>
+            </div> */}
+            <div>
+              <h3 className="text-sm font-semibold text-gray-900">
+                Abstract 3D
+              </h3>
+              <p className="text-xs text-gray-500 mt-0.5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <p className="text-sm text-gray-600">32 in stock</p>
+          </div>
+
+          <div className="text-center">
+            <p className="text-sm font-semibold text-gray-900">$ 45.99</p>
+          </div>
+          <div className="text-center">
+            <p className="text-sm text-gray-600">20</p>
+          </div>
+        </div>
       </Card>
     </div>
   );
-}
+};
 
-export default productTable
+export default productTable;
