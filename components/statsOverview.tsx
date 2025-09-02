@@ -29,7 +29,7 @@ const statsOverview = () => {
         <div className="flex items-center gap-4">
           <div className="bg-[#CAF1FF] rounded-full w-20 h-20 flex items-center justify-center">
             <Image
-              src="/assets/icons/money-recive 1.png"
+              src="/assets/icons/wallet-money.png"
               width={40}
               height={40}
               alt="Balance"
