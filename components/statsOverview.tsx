@@ -5,7 +5,7 @@ import React from 'react'
 const statsOverview = () => {
   return (
     <>
-      <div className="grid grid-cols-3 bg-white p-8 rounded-3xl gap-38">
+      <div className="grid grid-cols-5 bg-white p-8 rounded-3xl gap-3">
         <div className="flex items-center gap-4">
           <div className="bg-[#D3FFE7] rounded-full w-20 h-20 flex items-center justify-center">
             <Image
@@ -25,7 +25,6 @@ const statsOverview = () => {
             </div>
           </div>
         </div>
-
         <div className="flex items-center gap-4">
           <div className="bg-[#CAF1FF] rounded-full w-20 h-20 flex items-center justify-center">
             <Image
