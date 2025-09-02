@@ -46,7 +46,14 @@ const statsOverview = () => {
           </div>
         </div>
         <div className="flex items-center gap-4">
-          <div className="bg-[#FFA3CF] rounded-full w-20 h-20"></div>
+          <div className="bg-[#FFA3CF] rounded-full w-20 h-20 flex items-center justify-center">
+            <Image
+              src="/assets/icons/bag-2.png"
+              width={40}
+              height={40}
+              alt="Total Sales"
+            />
+          </div>
           <div className="flex flex-col gap-1">
             <p className="text-xs text-gray-400">Total Sales</p>
             <p className="text-3xl font-semibold">$89k</p>
