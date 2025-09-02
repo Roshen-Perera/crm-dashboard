@@ -1,5 +1,6 @@
 import { CustomerPieChart } from "@/components/customerPieChart";
 import { EarningOverview } from "@/components/earningOverview";
+import ProductTable from "@/components/productTable";
 import { AppSidebar } from "@/components/sideBar";
 import StatsOverview from "@/components/statsOverview";
 import { SidebarProvider, SidebarInset } from "@/components/ui/sidebar";
@@ -36,6 +37,9 @@ export default function Home() {
         <div className="grid grid-cols-[2fr_1fr] gap-14 p-11 -mt-4">
           <EarningOverview />
           <CustomerPieChart />
+        </div>
+        <div className="md:px-11">
+          <ProductTable />
         </div>
       </SidebarInset>
     </SidebarProvider>
