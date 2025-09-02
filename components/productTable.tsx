@@ -61,11 +61,9 @@ const productTable = () => {
               </p>
             </div>
           </div>
-
           <div className="text-center">
             <p className="text-sm text-gray-600">32 in stock</p>
           </div>
-
           <div className="text-center">
             <p className="text-sm font-semibold text-gray-900">$ 45.99</p>
           </div>
