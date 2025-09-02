@@ -1,4 +1,5 @@
 import { ArrowDown, ArrowUp } from 'lucide-react';
+import Image from 'next/image';
 import React from 'react'
 
 const statsOverview = () => {
@@ -6,7 +7,14 @@ const statsOverview = () => {
     <>
       <div className="grid grid-cols-3 bg-white p-8 rounded-3xl gap-38">
         <div className="flex items-center gap-4">
-          <div className="bg-[#D3FFE7] rounded-full w-20 h-20"></div>
+          <div className="bg-[#D3FFE7] rounded-full w-20 h-20 flex items-center justify-center">
+            <Image
+              src="/assets/icons/money-recive 1.png"
+              width={40}
+              height={40}
+              alt="Earning"
+            />
+          </div>
           <div className="flex flex-col gap-1">
             <p className="text-xs text-gray-400">Earning</p>
             <p className="text-3xl font-semibold">$198k</p>
@@ -17,7 +25,7 @@ const statsOverview = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="flex items-center gap-4">
           <div className="bg-[#CAF1FF] rounded-full w-20 h-20"></div>
           <div className="flex flex-col gap-1">
