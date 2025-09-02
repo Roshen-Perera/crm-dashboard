@@ -43,8 +43,9 @@ const chartConfig = {
 export function EarningOverview() {
   return (
     <Card>
-      <CardHeader>
+      <CardHeader className="gap-">
         <CardTitle>Bar Chart</CardTitle>
+        <CardDescription className="text-gray-400">Monthly Earning</CardDescription>
       </CardHeader>
       <CardContent>
         <ChartContainer config={chartConfig}>
