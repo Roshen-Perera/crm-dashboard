@@ -42,7 +42,7 @@ const chartConfig = {
 
 export function EarningOverview() {
   return (
-    <Card>
+    <Card className="shadow-none border-none">
       <CardHeader className="gap-">
         <CardTitle>Bar Chart</CardTitle>
         <CardDescription className="text-[#aaa7b6]">
