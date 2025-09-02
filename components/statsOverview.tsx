@@ -17,6 +17,7 @@ const statsOverview = () => {
             </div>
           </div>
         </div>
+        
         <div className="flex items-center gap-4">
           <div className="bg-[#CAF1FF] rounded-full w-20 h-20"></div>
           <div className="flex flex-col gap-1">
