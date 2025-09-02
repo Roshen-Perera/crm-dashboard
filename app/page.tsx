@@ -1,3 +1,4 @@
+import { CustomerPieChart } from "@/components/customerPieChart";
 import { EarningOverview } from "@/components/earningOverview";
 import { AppSidebar } from "@/components/sideBar";
 import StatsOverview from "@/components/statsOverview";
@@ -32,8 +33,9 @@ export default function Home() {
         <div className="flex items-center justify-center p-6">
           <StatsOverview />
         </div>
-        <div className="p-9">
+        <div className="flex items-center justify-between px-6 md:px-12 py-4">
           <EarningOverview />
+          <CustomerPieChart />
         </div>
       </SidebarInset>
     </SidebarProvider>
