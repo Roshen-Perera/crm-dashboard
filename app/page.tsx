@@ -33,7 +33,7 @@ export default function Home() {
         <div className="flex items-center justify-center p-6">
           <StatsOverview />
         </div>
-        <div className="flex items-center justify-between px-6 md:px-12 py-4">
+        <div className="grid grid-cols-[2fr_1fr] gap-14 p-9">
           <EarningOverview />
           <CustomerPieChart />
         </div>
