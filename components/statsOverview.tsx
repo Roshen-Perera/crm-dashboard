@@ -20,7 +20,7 @@ const statsOverview = () => {
             <p className="text-3xl font-semibold">$198k</p>
             <div className="flex flex-row items-center gap-1">
               <ArrowUp className="text-[#00AC4F]" width={15} height={15} />
-              <p className="text-xs text-[#00AC4F]">37.8%</p>
+              <p className="text-xs text-[#00AC4F] font-semibold">37.8%</p>
               <p className="text-xs">this month</p>
             </div>
           </div>
@@ -47,7 +47,7 @@ const statsOverview = () => {
             <p className="text-3xl font-semibold">$2.4k</p>
             <div className="flex flex-row items-center gap-1">
               <ArrowDown className="text-[#D0004B]" width={15} height={15} />
-              <p className="text-xs text-[#D0004B]">2%</p>
+              <p className="text-xs text-[#D0004B] font-semibold">2%</p>
               <p className="text-xs">this month</p>
             </div>
           </div>
@@ -74,7 +74,7 @@ const statsOverview = () => {
             <p className="text-3xl font-semibold">$89k</p>
             <div className="flex flex-row items-center gap-1">
               <ArrowUp className="text-[#00AC4F]" width={15} height={15} />
-              <p className="text-xs text-[#00AC4F]">11%</p>
+              <p className="text-xs text-[#00AC4F] font-semibold">11%</p>
               <p className="text-xs">this week</p>
             </div>
           </div>
