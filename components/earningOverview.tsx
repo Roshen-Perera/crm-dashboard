@@ -44,7 +44,7 @@ export function EarningOverview() {
   return (
     <Card className="shadow-none border-none">
       <CardHeader>
-        <CardTitle>Bar Chart</CardTitle>
+        <CardTitle>Overview</CardTitle>
         <CardDescription className="text-[#aaa7b6]">
           Monthly Earning
         </CardDescription>
