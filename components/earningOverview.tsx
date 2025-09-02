@@ -52,7 +52,6 @@ export function EarningOverview() {
       <CardContent>
         <ChartContainer config={chartConfig}>
           <BarChart accessibilityLayer data={chartData}>
-            <CartesianGrid vertical={false} />
             <XAxis
               dataKey="month"
               tickLine={false}
@@ -64,7 +63,12 @@ export function EarningOverview() {
               cursor={false}
               content={<ChartTooltipContent hideLabel />}
             />
-            <Bar dataKey="desktop" fill="var(--color-desktop)" radius={8} />
+            <Bar
+              dataKey="desktop"
+              fill="var(--color-desktop)"
+              radius={8}
+              activeBar={{ fill: "#5932EA", cursor: "pointer" }} // Tailwind purple-500 HEX
+            />
           </BarChart>
         </ChartContainer>
       </CardContent>
