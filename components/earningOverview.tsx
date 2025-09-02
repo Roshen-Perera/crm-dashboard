@@ -45,7 +45,9 @@ export function EarningOverview() {
     <Card>
       <CardHeader className="gap-">
         <CardTitle>Bar Chart</CardTitle>
-        <CardDescription className="text-gray-400">Monthly Earning</CardDescription>
+        <CardDescription className="text-[#aaa7b6]">
+          Monthly Earning
+        </CardDescription>
       </CardHeader>
       <CardContent>
         <ChartContainer config={chartConfig}>
