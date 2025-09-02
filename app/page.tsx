@@ -3,7 +3,7 @@ import { EarningOverview } from "@/components/earningOverview";
 import { AppSidebar } from "@/components/sideBar";
 import StatsOverview from "@/components/statsOverview";
 import { SidebarProvider, SidebarInset } from "@/components/ui/sidebar";
-import { Ear, Search } from "lucide-react";
+import { Search } from "lucide-react";
 
 export default function Home() {
   return (
