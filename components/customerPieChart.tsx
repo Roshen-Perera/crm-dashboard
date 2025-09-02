@@ -21,7 +21,7 @@ export const description = "A donut chart with text";
 
 const chartData = [
   { browser: "chrome", visitors: 35, fill: "var(--color-chrome)" },
-  { browser: "safari", visitors: 65, fill: "var(--color-safari)" },
+  { browser: "safari", visitors: 200, fill: "var(--color-safari)" },
 ];
 
 const chartConfig = {
