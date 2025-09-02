@@ -88,7 +88,7 @@ const ProductTable = () => {
         {products.map((product, index) => (
           <div key={index} className="grid grid-cols-[2fr_1fr_1fr_1fr] gap-4 items-center px-6">
             <div className="flex items-center space-x-3">
-              <Image src={product.image} alt={product.name} width={48} height={48} className="rounded-md" />
+              <Image src={product.image} alt={product.name} width={80} height={80} className="rounded-md" />
             <div>
               <h3 className="text-sm font-semibold text-gray-900">
                 {product.name}
