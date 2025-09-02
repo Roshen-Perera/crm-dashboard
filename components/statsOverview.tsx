@@ -9,7 +9,7 @@ const statsOverview = () => {
         <div className="flex items-center gap-4">
           <div className="bg-[#D3FFE7] rounded-full w-20 h-20 flex items-center justify-center">
             <Image
-              src="/assets/icons/money-recive 1.png"
+              src="/assets/icons/money-receive.png"
               width={40}
               height={40}
               alt="Earning"
@@ -27,12 +27,12 @@ const statsOverview = () => {
         </div>
 
         <div className="flex items-center gap-4">
-          <div className="bg-[#D3FFE7] rounded-full w-20 h-20 flex items-center justify-center">
+          <div className="bg-[#CAF1FF] rounded-full w-20 h-20 flex items-center justify-center">
             <Image
               src="/assets/icons/money-recive 1.png"
               width={40}
               height={40}
-              alt="Earning"
+              alt="Balance"
             />
           </div>
           <div className="flex flex-col gap-1">
