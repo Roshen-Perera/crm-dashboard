@@ -1,7 +1,8 @@
+import { EarningOverview } from "@/components/earningOverview";
 import { AppSidebar } from "@/components/sideBar";
 import StatsOverview from "@/components/statsOverview";
 import { SidebarProvider, SidebarInset } from "@/components/ui/sidebar";
-import { Search } from "lucide-react";
+import { Ear, Search } from "lucide-react";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         {/* Main Content */}
         <main className="flex items-center justify-center p-6">
           <StatsOverview />
+          <EarningOverview />
         </main>
       </SidebarInset>
     </SidebarProvider>

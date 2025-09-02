@@ -36,7 +36,7 @@ const chartConfig = {
   },
 } satisfies ChartConfig;
 
-export function earningOverview() {
+export function EarningOverview() {
   return (
     <Card>
       <CardHeader>
