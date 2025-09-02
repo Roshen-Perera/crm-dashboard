@@ -5,7 +5,7 @@ import React from 'react'
 const statsOverview = () => {
   return (
     <>
-      <div className="flex bg-white p-8 rounded-3xl gap-21">
+      <div className="flex bg-white p-8 rounded-3xl gap-20">
         <div className="flex items-center gap-4">
           <div className="bg-[#D3FFE7] rounded-full w-20 h-20 flex items-center justify-center">
             <Image
