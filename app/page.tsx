@@ -32,8 +32,7 @@ export default function Home() {
         <div className="flex items-center justify-center p-6">
           <StatsOverview />
         </div>
-        <div className="flex p-9">
-          <EarningOverview />
+        <div className="p-9">
           <EarningOverview />
         </div>
       </SidebarInset>
