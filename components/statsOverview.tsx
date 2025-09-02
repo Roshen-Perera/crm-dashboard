@@ -1,11 +1,11 @@
-import { ArrowDown, ArrowUp } from 'lucide-react';
+import { ArrowDown, ArrowUp, Minus } from 'lucide-react';
 import Image from 'next/image';
 import React from 'react'
 
 const statsOverview = () => {
   return (
     <>
-      <div className="grid grid-cols-5 bg-white p-8 rounded-3xl gap-3">
+      <div className="flex bg-white p-8 rounded-3xl gap-21">
         <div className="flex items-center gap-4">
           <div className="bg-[#D3FFE7] rounded-full w-20 h-20 flex items-center justify-center">
             <Image
@@ -25,6 +25,14 @@ const statsOverview = () => {
             </div>
           </div>
         </div>
+        <div>
+          <Image
+            src="/assets/objects/verticalLine.png"
+            width={1}
+            height={1}
+            alt="Balance"
+          />
+        </div>
         <div className="flex items-center gap-4">
           <div className="bg-[#CAF1FF] rounded-full w-20 h-20 flex items-center justify-center">
             <Image
@@ -43,6 +51,14 @@ const statsOverview = () => {
               <p className="text-xs">this month</p>
             </div>
           </div>
+        </div>
+        <div>
+          <Image
+            src="/assets/objects/verticalLine.png"
+            width={1}
+            height={1}
+            alt="Balance"
+          />
         </div>
         <div className="flex items-center gap-4">
           <div className="bg-[#FFA3CF] rounded-full w-20 h-20 flex items-center justify-center">
